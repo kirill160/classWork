@@ -17,7 +17,7 @@ public class BotByKirill extends TelegramLongPollingBot {
 
     @Override
     public void onUpdateReceived(Update update) {
-        System.out.println(update.getMessage().getText());
-        System.out.println(update.getMessage().getFrom().getFirstName());
+
+
     }
 }
